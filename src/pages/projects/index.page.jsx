@@ -16,23 +16,20 @@ import { useStore } from '@src/store';
 import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
-  title: 'Giats - Projects',
-  description: 'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
+  title: 'Malik Fajar — Projects',
+  description: 'Selected work: Laravel inventory, SkillMatch, Courtline, JKN BPJS, and EduVerse — websites and experiments from a PPLG student in Cimahi.',
   keywords: [
-    'Giats Projects',
-    'Portfolio Showcase',
-    'Frontend Development Examples',
-    'Web Design Portfolio',
-    'Responsive Web Projects',
-    'Web Applications Portfolio',
-    'HTML and CSS Projects',
-    'JavaScript Development',
-    'React Work',
-    'Next.js Projects',
-    'React Three Fiber Projects',
-    'Electron Projects',
-    'Professional Web Development',
-    'Evangelos Giatsidis Projects',
+    'Malik Fajar Projects',
+    'Portfolio',
+    'Laravel',
+    'React',
+    'SkillMatch',
+    'Inventaris',
+    'EduVerse',
+    'Courtline',
+    'JKN BPJS',
+    'Frontend',
+    'Web Development',
   ],
 };
 
@@ -107,7 +104,7 @@ function Page() {
                     <h3 className={clsx(styles.text, 'h3')}>{project.title}</h3>
                   </div>
                   <div className={styles.imageContainer}>
-                    <Image priority={index === 0} sizes="100%" src={project.img} fill alt={project.title} />
+                    <Image priority={index === 0} sizes="100%" src={project.img} fill alt={project.title} style={{ objectFit: 'cover' }} />
                   </div>
                 </div>
               </div>
@@ -124,6 +121,7 @@ function Page() {
                   src={project.img}
                   fill
                   alt={project.title}
+                  style={{ objectFit: 'cover' }}
                 />
               </div>
             </Link>

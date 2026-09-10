@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://giats.me/
+Host: https://malikfajar.me/
 
 # Sitemaps
-Sitemap: https://giats.me/sitemap.xml
+Sitemap: https://malikfajar.me/sitemap.xml

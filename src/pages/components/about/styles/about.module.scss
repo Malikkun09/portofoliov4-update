@@ -65,6 +65,8 @@
         grid-column: 1 / 7;
       }
       > img {
+        object-fit: cover;
+        object-position: center;
         @include mobile {
           border-radius: calc(var(--layout-columns-gap) * 0.5);
         }

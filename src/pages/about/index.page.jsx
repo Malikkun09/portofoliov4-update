@@ -6,21 +6,19 @@ import Process from '@src/pages/about/components/process/Process';
 import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
-  title: 'Giats - About',
-  description: 'Learn about my journey, values, and commitment to quality web and app solutions.',
+  title: 'Malik Fajar — About',
+  description: 'PPLG student at SMK Informatika Fithrah Insani. I learn by building websites, interfaces, and experiments.',
   keywords: [
-    'Giats',
-    'About Evangelos Giatsidis',
+    'Malik Fajar',
+    'About Muhammad Malik Fajar',
     'About me',
-    'Frontend Developer Journey',
-    'Web Developer Story',
-    'Professional Web Development',
-    'Frontend Development Expertise',
-    'Web Design Skills',
-    'Web Development Services',
-    'Web Design Expertise',
-    'Developer Profile',
-    'Quality Web Solutions',
+    'PPLG',
+    'SMK Informatika Fithrah Insani',
+    'Cimahi',
+    'Frontend',
+    'Web Development',
+    'Laravel',
+    'React',
   ],
 };
 function Page() {

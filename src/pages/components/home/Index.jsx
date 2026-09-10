@@ -226,11 +226,11 @@ function Home() {
       <div className={clsx(styles.topContainer, 'layout-grid-inner')}>
         <div className={styles.leftContainer}>
           <h2 className="h2">Remarkable</h2>
-          <h2 className={clsx('h2', 'bold')}>Virtual Experiences</h2>
+          <h2 className={clsx('h2', 'bold')}>Digital Experiences</h2>
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            With years of experience, I create immersive digital environments that elevate your virtual presence. Join me in redefining digital interaction.
+            I build websites, interfaces, and experiments that turn ideas into something you can actually use. Join me in making the web feel alive.
           </h6>
         )}
       </div>
@@ -250,7 +250,7 @@ function Home() {
       </div>
       {isMobile && (
         <div className={styles.rightContainerMobile}>
-          <h6 className="h6"> With years of experience, I create immersive digital environments that elevate your virtual presence. Join me in redefining digital interaction.</h6>
+          <h6 className="h6"> I build websites, interfaces, and experiments that turn ideas into something you can actually use. Join me in making the web feel alive.</h6>
         </div>
       )}
 

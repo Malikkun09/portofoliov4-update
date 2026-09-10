@@ -51,12 +51,12 @@ function Clients() {
   return (
     <section ref={rootRef} className={clsx(styles.root, 'layout-grid-inner')}>
       <h1 className={clsx(styles.sectionTitle, 'h1')}>
-        <AppearByWords>Clients</AppearByWords>
+        <AppearByWords>Journey</AppearByWords>
       </h1>
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2024</AppearTitle>
+          <AppearTitle>2026</AppearTitle>
         </div>
       ) : null}
       <div
@@ -71,17 +71,17 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 1</h4>
+            <h4 className={clsx('h4', 'bold')}>PKL Inventaris</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Built Sistem Inventaris Barang for PKL:</div>
+            <div className="p-l">Laravel inventory with role-based access,</div>
+            <div className="p-l">stock ledgers, activity logs, and a security</div>
+            <div className="p-l">audit covering injection, sessions, and</div>
+            <div className="p-l">transaction integrity. Forty-six regression</div>
+            <div className="p-l">tests stay green. Deployed to shared</div>
+            <div className="p-l">hosting, with the source on GitHub for</div>
+            <div className="p-l">anyone who wants to read the work.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -95,20 +95,20 @@ function Clients() {
             className={styles.firstText}
           >
             <AppearTitle>
-              <h6 className="h6">2024</h6>
+              <h6 className="h6">2026</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 1</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>PKL Inventaris</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Built Sistem Inventaris Barang for PKL:</div>
+              <div className="p-l">Laravel inventory with role-based access,</div>
+              <div className="p-l">stock ledgers, activity logs, and a security</div>
+              <div className="p-l">audit covering injection, sessions, and</div>
+              <div className="p-l">transaction integrity. Forty-six regression</div>
+              <div className="p-l">tests stay green. Deployed to shared</div>
+              <div className="p-l">hosting, with the source on GitHub for</div>
+              <div className="p-l">anyone who wants to read the work.</div>
             </AppearTitle>
           </div>
         </>
@@ -117,7 +117,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2023</AppearTitle>
+          <AppearTitle>2026</AppearTitle>
         </div>
       ) : null}
       <div
@@ -132,17 +132,17 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 2</h4>
+            <h4 className={clsx('h4', 'bold')}>Coding Camp</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Full-stack web track at Coding Camp 2026</div>
+            <div className="p-l">by DBS Foundation and Dicoding. Capstone</div>
+            <div className="p-l">project KerjaIn / SkillMatch: a platform that</div>
+            <div className="p-l">helps SMK students find internships, jobs,</div>
+            <div className="p-l">and career information. Theme: Future-</div>
+            <div className="p-l">Ready Work & Economy. I left with React,</div>
+            <div className="p-l">backend JavaScript, and a habit of finishing</div>
+            <div className="p-l">what I start.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -155,20 +155,20 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2023</h6>
+              <h6 className="h6">2026</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 2</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Coding Camp</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Full-stack web track at Coding Camp 2026</div>
+              <div className="p-l">by DBS Foundation and Dicoding. Capstone</div>
+              <div className="p-l">project KerjaIn / SkillMatch: a platform that</div>
+              <div className="p-l">helps SMK students find internships, jobs,</div>
+              <div className="p-l">and career information. Theme: Future-</div>
+              <div className="p-l">Ready Work & Economy. I left with React,</div>
+              <div className="p-l">backend JavaScript, and a habit of finishing</div>
+              <div className="p-l">what I start.</div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -177,7 +177,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2021</AppearTitle>
+          <AppearTitle>2024</AppearTitle>
         </div>
       ) : null}
       <div
@@ -192,17 +192,17 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 3</h4>
+            <h4 className={clsx('h4', 'bold')}>SMK Fithrah Insani</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+            <div className="p-l">Started the PPLG program at SMK</div>
+            <div className="p-l">Informatika Fithrah Insani in Cimahi.</div>
+            <div className="p-l">HTML, CSS, JavaScript, and interface</div>
+            <div className="p-l">design became the daily work. This is</div>
+            <div className="p-l">where I stopped treating code as a</div>
+            <div className="p-l">subject and started treating it as a</div>
+            <div className="p-l">way to build things people can open</div>
+            <div className="p-l">in a browser.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -216,20 +216,20 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">2021</h6>
+              <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Company 3</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>SMK Fithrah Insani</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
-              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
-              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
-              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
-              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
-              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div className="p-l">Started the PPLG program at SMK</div>
+              <div className="p-l">Informatika Fithrah Insani in Cimahi.</div>
+              <div className="p-l">HTML, CSS, JavaScript, and interface</div>
+              <div className="p-l">design became the daily work. This is</div>
+              <div className="p-l">where I stopped treating code as a</div>
+              <div className="p-l">subject and started treating it as a</div>
+              <div className="p-l">way to build things people can open</div>
+              <div className="p-l">in a browser.</div>
             </AppearTitle>
           </div>
         </>

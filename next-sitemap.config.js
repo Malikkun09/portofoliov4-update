@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://giats.me/',
-  generateRobotsTxt: true, // (optional)
+  siteUrl: 'https://malikfajar.me/',
+  generateRobotsTxt: true,
   generateIndexSitemap: false,
 };

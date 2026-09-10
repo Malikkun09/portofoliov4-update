@@ -1,19 +1,19 @@
 const footerLinks = [
   {
     title: 'Github',
-    href: 'https://github.com/Giats2498',
+    href: 'https://github.com/Malikkun09',
   },
   {
     title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/giats',
+    href: 'https://www.linkedin.com/in/muhammad-malik-fajar-el-syarif-05773a392',
   },
   {
     title: 'Instagram',
-    href: 'https://www.instagram.com/giats_/',
+    href: 'https://instagram.com/malikajasih',
   },
   {
-    title: 'Twitter',
-    href: 'https://twitter.com/Giats_',
+    title: 'Dev.to',
+    href: 'https://dev.to/malikkun09',
   },
 ];
 export default footerLinks;

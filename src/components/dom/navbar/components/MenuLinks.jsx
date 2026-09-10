@@ -6,6 +6,7 @@ import footerLinks from '@src/components/dom/navbar/constants/footerLinks';
 import gsap from 'gsap';
 import menuLinks from '@src/components/dom/navbar/constants/menuLinks';
 import projectsLinks from '@src/components/dom/navbar/constants/projectsLinks';
+import profile from '@src/constants/profile';
 import styles from '@src/components/dom/navbar/styles/menuLinks.module.scss';
 import useIsMobile from '@src/hooks/useIsMobile';
 import { useRouter } from 'next/router';
@@ -156,7 +157,7 @@ function MenuLinks() {
             }}
             className={styles.menuListItem}
           >
-            <Link aria-label="Send email" scroll={false} href="mailto:vaggelisgiats@gmail.com">
+            <Link aria-label="Get in touch" scroll={false} href={profile.contactHref} target="_blank" rel="noopener noreferrer">
               <span>GET IN TOUCH</span>
             </Link>
           </div>

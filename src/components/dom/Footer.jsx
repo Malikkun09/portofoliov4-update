@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic';
 import footerLinks from '@src/components/dom/navbar/constants/footerLinks';
 import gsap from 'gsap';
 import menuLinks from '@src/components/dom/navbar/constants/menuLinks';
+import profile from '@src/constants/profile';
 import styles from '@src/components/dom/styles/footer.module.scss';
 import useIsMobile from '@src/hooks/useIsMobile';
 import { useIsomorphicLayoutEffect } from '@src/hooks/useIsomorphicLayoutEffect';
@@ -96,8 +97,8 @@ function Footer() {
           <h4 className={clsx(styles.workWithMe, 'h4')}>Work With Me:</h4>
           <div>
             <div className={styles.link}>
-              <Link aria-label="Send email" scroll={false} href="mailto:vaggelisgiats@gmail.com">
-                <h4 className={clsx(styles.email, 'h4')}>vaggelisgiats@gmail.com</h4>
+              <Link aria-label="Send WhatsApp" scroll={false} href={profile.contactHref} target="_blank" rel="noopener noreferrer">
+                <h4 className={clsx(styles.email, 'h4')}>{profile.contactLabel}</h4>
               </Link>
               {/* class="link__graphic link__graphic--slide" */}
               <svg className={clsx(styles.linkGraphic)} width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
@@ -110,7 +111,7 @@ function Footer() {
 
       <div className={styles.middleContainer} style={{ gridColumn: '1 / 9' }}>
         <AppearTitle isFooter>
-          <div className="p-x">Based in Thessaloniki, Greece</div>
+          <div className="p-x">Based in Cimahi, Indonesia</div>
           <div className={clsx('p-x', styles.middleText)}>
             Current Time: <Time />
           </div>
@@ -120,18 +121,18 @@ function Footer() {
       <div className={styles.middleContainer} style={{ gridColumn: '9 / 13' }}>
         <AppearTitle isFooter>
           <div className="p-x">Availability</div>
-          <div className={clsx('p-x', styles.middleText)}>Currently available for limited projects</div>
+          <div className={clsx('p-x', styles.middleText)}>Open for internships and limited projects</div>
         </AppearTitle>
       </div>
       <div className={styles.middleContainer} style={{ gridColumn: '13 / 17', textAlign: isMobile ? 'left' : 'right' }}>
         <AppearTitle isFooter>
-          <div className="p-x">© 2025 · Evangelos Giatsidis</div>
+          <div className="p-x">© 2026 · Muhammad Malik Fajar</div>
           <div className={clsx('p-x', styles.middleText)}>All Rights Reserved</div>
         </AppearTitle>
       </div>
 
       <div className={styles.giats}>
-        <span>GIATS</span>
+        <span>MALIK</span>
       </div>
       <div className={styles.goToTop}>
         <GoTop />

@@ -42,35 +42,35 @@ function Overview() {
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece with a </h6>
-            <h6 className="h6">passion for crafting amazing digital experiences. I studied software</h6>
-            <h6 className="h6">engineering to deepen my understanding of how to build sleek and </h6>
-            <h6 className="h6">efficient websites and apps.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not busy coding, you&apos;ll often find me soaking up inspiration from</h6>
-            <h6 className="h6">the world of design. Whether it&apos;s exploring new color palettes or refining</h6>
-            <h6 className="h6">user interfaces, I love bringing creativity into my work.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not immersed in coding, I enjoy staying active. I love swimming, </h6>
-            <h6 className="h6">rowing, and playing intense PC games to relax and recharge.</h6>
+            <h6 className="h6">Hey there! I&apos;m Malik, a PPLG student at SMK Informatika Fithrah </h6>
+            <h6 className="h6">Insani in Cimahi. I learn by building: websites, interfaces, systems,</h6>
+            <h6 className="h6">and visual experiments. Software, UI/UX, AI, and security are the</h6>
+            <h6 className="h6">lanes I keep walking — still a student, already shipping work.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not in class or on PKL, I&apos;m usually in a terminal, a Figma</h6>
+            <h6 className="h6">file, or an animation timeline. I like interfaces that feel designed,</h6>
+            <h6 className="h6">not default — type, contrast, and motion doing real work.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>This site is my digital house: projects, experiments, and process.</h6>
+            <h6 className="h6">Not a claim of seniority. Just the work that already exists, arranged</h6>
+            <h6 className="h6">so you can walk through it.</h6>
 
-            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>If you want to build something, I&apos;m listening.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Muhammad Malik Fajar El Syarif.</h6>
           </AppearTitle>
         ) : (
           <AppearTitle key="mobile-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece </h6>
-            <h6 className="h6">with a passion for crafting amazing digital experiences. I studied </h6>
-            <h6 className="h6">software engineering to deepen my understanding of how to </h6>
-            <h6 className="h6">build sleek and efficient websites and apps.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not busy coding, you&apos;ll often find me soaking up </h6>
-            <h6 className="h6">inspiration from the world of design. Whether it&apos;s exploring new</h6>
-            <h6 className="h6">color palettes or refining user interfaces, I love bringing</h6>
-            <h6 className="h6">creativity into my work.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not immersed in coding, I enjoy staying active. I love</h6>
-            <h6 className="h6">swimming, rowing, and playing intense PC games to relax</h6>
-            <h6 className="h6">and recharge.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something</h6>
-            <h6 className="h6">great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className="h6">Hey there! I&apos;m Malik, a PPLG student at SMK Informatika </h6>
+            <h6 className="h6">Fithrah Insani in Cimahi. I learn by building: websites,</h6>
+            <h6 className="h6">interfaces, systems, and visual experiments. Software,</h6>
+            <h6 className="h6">UI/UX, AI, and security are the lanes I keep walking.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not in class or on PKL, I&apos;m usually in a terminal, </h6>
+            <h6 className="h6">a Figma file, or an animation timeline. I like interfaces that</h6>
+            <h6 className="h6">feel designed, not default — type, contrast, and motion</h6>
+            <h6 className="h6">doing real work.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>This site is my digital house: projects, experiments, and</h6>
+            <h6 className="h6">process. Not a claim of seniority. Just the work that</h6>
+            <h6 className="h6">already exists, arranged so you can walk through it.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>If you want to build something, I&apos;m listening.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Muhammad Malik Fajar El Syarif.</h6>
           </AppearTitle>
         )}
       </div>

@@ -1,5 +1,5 @@
 {
-  "name": "portofoliomigration",
+  "name": "malik-fajar-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -58,7 +58,8 @@
     "sharp": "^0.33.4",
     "split-type": "^0.3.4",
     "three": "^0.167.0",
-    "zustand": "^4.5.4"
+    "zustand": "^4.5.4",
+    "meshline": "^3.3.1"
   },
   "devDependencies": {
     "@react-three/eslint-plugin": "^0.1.1",
@@ -82,5 +83,10 @@
     "raw-loader": "^4.0.2",
     "sass": "^1.69.4",
     "stats.js": "^0.17.0"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true,
+    "@parcel/watcher@2.5.1": true,
+    "unrs-resolver@1.7.8": true
   }
 }

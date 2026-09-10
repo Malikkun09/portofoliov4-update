@@ -89,12 +89,12 @@ function Projects() {
                     <h3 className="h3">{project.title}</h3>
                   </div>
                   <div className={styles.imageContainer}>
-                    <Image src={project.img} fill sizes="100%" alt={project.title} />
+                    <Image src={project.img} fill sizes="100%" alt={project.title} style={{ objectFit: 'cover' }} />
                   </div>
                 </div>
               </div>
               <div ref={(el) => (projectRefs.current[index] = el)} className={styles.canvas}>
-                <Image priority className={index === 0 ? styles.firstCard : index === newProjects.length - 1 ? styles.lastCard : undefined} src={project.img} fill sizes="100%" alt={project.title} />
+                <Image priority className={index === 0 ? styles.firstCard : index === newProjects.length - 1 ? styles.lastCard : undefined} src={project.img} fill sizes="100%" alt={project.title} style={{ objectFit: 'cover' }} />
               </div>
             </Link>
           ))}
