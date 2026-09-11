@@ -82,13 +82,7 @@ function Page({ id }) {
     () => ({
       title: `Malik Fajar — ${currentProject.title}`,
       description: `Look at ${currentProject.title}, a ${currentProject.date} project by Muhammad Malik Fajar — ${currentProject.company}.`,
-      keywords: [
-        `${currentProject.title} project`,
-        `${currentProject.title} development`,
-        `Malik Fajar ${currentProject.title}`,
-        `Frontend ${currentProject.title}`,
-        'Malik Fajar portfolio',
-      ],
+      keywords: [`${currentProject.title} project`, `${currentProject.title} development`, `Malik Fajar ${currentProject.title}`, `Frontend ${currentProject.title}`, 'Malik Fajar portfolio'],
     }),
     [currentProject],
   );

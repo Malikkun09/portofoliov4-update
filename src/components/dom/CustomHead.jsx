@@ -13,12 +13,7 @@ const getSchema = () => ({
   jobTitle: 'PPLG Student / Frontend Developer',
   url: SITE_URL,
   image: OG_IMAGE,
-  sameAs: [
-    'https://github.com/Malikkun09',
-    'https://www.linkedin.com/in/muhammad-malik-fajar-el-syarif-05773a392',
-    'https://instagram.com/malikajasih',
-    'https://dev.to/malikkun09',
-  ],
+  sameAs: ['https://github.com/Malikkun09', 'https://www.linkedin.com/in/muhammad-malik-fajar-el-syarif-05773a392', 'https://instagram.com/malikajasih', 'https://dev.to/malikkun09'],
   alumniOf: [{ '@type': 'EducationalOrganization', name: 'SMK Informatika Fithrah Insani' }],
 });
 

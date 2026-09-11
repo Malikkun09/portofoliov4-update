@@ -94,7 +94,15 @@ function Projects() {
                 </div>
               </div>
               <div ref={(el) => (projectRefs.current[index] = el)} className={styles.canvas}>
-                <Image priority className={index === 0 ? styles.firstCard : index === newProjects.length - 1 ? styles.lastCard : undefined} src={project.img} fill sizes="100%" alt={project.title} style={{ objectFit: 'cover' }} />
+                <Image
+                  priority
+                  className={index === 0 ? styles.firstCard : index === newProjects.length - 1 ? styles.lastCard : undefined}
+                  src={project.img}
+                  fill
+                  sizes="100%"
+                  alt={project.title}
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
             </Link>
           ))}

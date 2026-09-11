@@ -18,19 +18,7 @@ import { useWindowSize } from '@darkroom.engineering/hamo';
 const seo = {
   title: 'Malik Fajar — Projects',
   description: 'Selected work: Laravel inventory, SkillMatch, Courtline, JKN BPJS, and EduVerse — websites and experiments from a PPLG student in Cimahi.',
-  keywords: [
-    'Malik Fajar Projects',
-    'Portfolio',
-    'Laravel',
-    'React',
-    'SkillMatch',
-    'Inventaris',
-    'EduVerse',
-    'Courtline',
-    'JKN BPJS',
-    'Frontend',
-    'Web Development',
-  ],
+  keywords: ['Malik Fajar Projects', 'Portfolio', 'Laravel', 'React', 'SkillMatch', 'Inventaris', 'EduVerse', 'Courtline', 'JKN BPJS', 'Frontend', 'Web Development'],
 };
 
 function Page() {

@@ -8,8 +8,7 @@ import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
   title: 'Malik Fajar — Portfolio',
-  description:
-    'PPLG student at SMK Informatika Fithrah Insani. I build websites, interfaces, and experiments — from Laravel systems to motion-heavy frontends.',
+  description: 'PPLG student at SMK Informatika Fithrah Insani. I build websites, interfaces, and experiments — from Laravel systems to motion-heavy frontends.',
   keywords: [
     'Malik Fajar',
     'Muhammad Malik Fajar',
